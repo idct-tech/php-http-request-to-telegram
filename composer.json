@@ -1,0 +1,21 @@
+{
+    "name": "idct/php-http-request-to-telegram",
+    "description": "Forwards HTTP Requests to Telegram. Useful for debugging of things which require online presence on localhost.",
+    "type": "project",
+    "require": {
+        "idct/php-telegram-sender": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "IDCT Bartosz Pacholek",
+            "email": "bartosz@idct.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "IDCT\\HttpTelegramResender\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

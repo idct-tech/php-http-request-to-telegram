@@ -1,0 +1,8 @@
+[
+    {
+        "route": "/example",
+        "bot_id": "1000000000",
+        "bot_secret": "AAAAAAAAAAAAAAAAAAAAA",
+        "channel_id": "1101010101"
+    }
+]
